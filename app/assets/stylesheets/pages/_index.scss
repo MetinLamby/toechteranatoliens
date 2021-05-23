@@ -1,2 +1,18 @@
 // Import page-specific CSS files here.
 @import "home";
+
+
+
+html, body {
+  background: #FFFDFA;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+

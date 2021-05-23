@@ -1,1 +1,50 @@
 // Specific CSS for your home-page
+
+
+
+.banner-small {
+  display: flex;
+  flex-direction: column;
+  align-items: felx-start;
+  justify-content: center;
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    h4 {
+      margin-bottom: 20px;
+    }
+    .erfahren-btn {
+      background-color: #182833;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 220px;
+      height: 60px;
+      border-radius: 5px;
+      p {
+        color: #FFFDFA;
+        margin: 10px;
+      }
+    }
+    .erfahren-btn:hover {
+      background-color: #274253;
+    }
+}
+
+.banner-zuchini-img {
+  width: 95%;
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-img {
+  width: 100%;
+}
