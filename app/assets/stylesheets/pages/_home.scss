@@ -23,6 +23,7 @@
       width: 220px;
       height: 60px;
       border-radius: 5px;
+      margin-bottom: 20px;
       p {
         color: #FFFDFA;
         margin: 10px;
@@ -31,6 +32,12 @@
     .erfahren-btn:hover {
       background-color: #274253;
     }
+}
+
+.img-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .banner-zuchini-img {
@@ -48,3 +55,70 @@
 .food-img {
   width: 100%;
 }
+
+
+/* phone size */
+@media screen and (max-width: 600px) {
+  .banner-small {
+    h1 {
+      font-size: 45px;
+      margin-top: 20px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+  }
+  .text-container {
+    h1 {
+      font-size: 30px;
+    }
+  }
+  .gebaeck-large {
+    display: none;
+  }
+  .gebaeck-small {
+    display: block;
+  }
+  .suppen-large {
+    display: none;
+  }
+  .suppen-small {
+    display: block;
+  }
+  .nachspeisen-large {
+    display: none;
+  }
+  .nachspeisen-small {
+    display: block;
+  }
+  .food-header {
+    margin-top: 20px;
+  }
+}
+
+/* iPad size */
+@media screen and (min-width: 992px) {
+  .gebaeck-large {
+    display: block;
+  }
+  .gebaeck-small {
+    display: none;
+  }
+  .suppen-large {
+    display: block;
+  }
+  .suppen-small {
+    display: none;
+  }
+  .nachspeisen-large {
+    display: block;
+  }
+  .nachspeisen-small {
+    display: none;
+  }
+  .food-header {
+    margin-top: 0px;
+  }
+}
+
+
